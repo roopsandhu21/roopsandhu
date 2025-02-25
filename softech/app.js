@@ -1,0 +1,6 @@
+const list=require('./student') 
+const std=require('./index')
+let result=std.sum(40,30)
+console.log(result)
+let result1=std.minus(40,30)
+console.log(result1)
